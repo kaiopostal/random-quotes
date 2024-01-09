@@ -1,0 +1,28 @@
+{
+    "name": "kaiopostal/random-quotes",
+    "description": "A simple packge do get quotes",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kaiopostal\\RandomQuotes\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kaio Postal",
+            "email": "kaiopostal@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "pestphp/pest": "^2.30"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.8"
+    }
+}
